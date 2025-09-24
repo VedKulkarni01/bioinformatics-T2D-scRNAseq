@@ -1,19 +1,23 @@
-# Single-Cell Transcriptomic Profiling of Beta Cells in Human Pancreatic Islets
+# β-cell Transcriptome Profiling in Type 2 Diabetes
 
-## 📌 Project Overview
-This project reproduces and extends analysis of **single-cell RNA-seq data** 
-comparing healthy and Type 2 diabetic pancreatic beta cells.  
-It was completed as part of **BINF6310 – Introduction to Computational Methods in Bioinformatics**.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Build Status](https://github.com/YOURUSER/beta-cell-transcriptome-T2D/actions/workflows/ci.yml/badge.svg)](https://github.com/YOURUSER/beta-cell-transcriptome-T2D/actions)
 
-## 👥 Team Members
-- Dinesh Sambhaji Pradhan  
-- Asmitha Nagajothi Purushotam  
-- Vedant Kulkarni  
-- Rich Goodier  
+Reproducible pipeline for **single-cell RNA-seq analysis of pancreatic β-cells** from healthy and Type 2 Diabetes (T2D) donors.  
+This project replicates and extends the workflow from [Segerstolpe et al_., *Cell Metabolism* 2016](https://doi.org/10.1016/j.cmet.2016.08.020), using **Nextflow**, **STAR**, and **DESeq2** to profile gene expression changes and β-cell heterogeneity.
+
+---
+
+## 🚀 Motivation
+- Type 2 Diabetes affects 1 in 9 individuals worldwide (IDF 2025).  
+- β-cells in islets of Langerhans are central to insulin secretion and glucose homeostasis.  
+- Bulk RNA-seq misses heterogeneity; **single-cell RNA-seq** resolves subpopulations and disease-related signatures.  
+
+---
 
 ## 🎯 Objectives
-- Build a reproducible pipeline for scRNA-seq analysis.  
-- Compare transcriptomes of beta cells from healthy vs. T2D samples.  
+- Build a reproducible scRNA-seq pipeline (QC → alignment → quantification → DE analysis).  
+- Compare transcriptomes of healthy vs T2D β-cells.  
 - Identify differentially expressed genes and enriched pathways.  
 
 ## 📂 Repository Structure
@@ -41,3 +45,4 @@ bioinformatics-T2D-scRNAseq/
 - Raghavan V. et al. (2022). *A simple guide to de novo transcriptome assembly and annotation*. Briefings in Bioinformatics, 23(2), bbab563. [DOI](https://doi.org/10.1093/bib/bbab563)  
 
 ---
+
