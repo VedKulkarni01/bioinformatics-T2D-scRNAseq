@@ -1,0 +1,24 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Ignore large data outputs (optional)
+*.fastq
+*.bam
+*.sam
+*.gz
